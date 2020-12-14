@@ -1,23 +1,48 @@
-.navbar { 
-    background-color: rgb(231, 179, 255);
-    
+body {
+    font-family: 'Gudea', sans-serif;
 }
+
+
+/* ------------------------------------------------------------------------Nav Bar */
+
+
+.navbar { 
+    background-color: rgba(231, 179, 255, 0.9);
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/* ------------------------------------------------------------------------Footer */
+
+footer {
+    background-color: rgb(231, 179, 255);
+}
+
 
 .footer ul {
     list-style: none;
-    
 }
 
 
-.footer {
-    background-color: rgb(231, 179, 255);
-}
+/* ------------------------------------------------------------------------Welcome Section */
 
-.hero-image {
-    margin: 0;
-    background-image: url("../assets/images/hero-image.jpg");
-    opacity: 0.6;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.welcome-container {
+    height: 100vh;
+    position: relative;
+    background: url('../assets/images/hero-image.jpg') no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
 }
