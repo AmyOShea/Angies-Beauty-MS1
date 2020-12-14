@@ -7,23 +7,9 @@ body {
 
 
 .navbar { 
-    background-color: rgba(231, 179, 255, 0.9);
+    background-color: rgba(218, 139, 255, 0.9);
     padding: 20px 20px 20px 20px;
 }
-
-
-
-/* ------------------------------------------------------------------------Footer */
-
-footer {
-    background-color: rgb(231, 179, 255);
-}
-
-
-.footer ul {
-    list-style: none;
-}
-
 
 /* ------------------------------------------------------------------------Welcome Section */
 
@@ -45,4 +31,42 @@ footer {
 .jumbotron {
     background-color: transparent;
     color: #fff;
+}
+
+/* ------------------------------------------------------------------------Footer */
+
+footer {
+    background-color: rgb(218, 139, 255);
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+}
+
+.footer-info {
+    padding: 15px 20px 0px 20px;
+}
+
+footer h5 {
+    font-size: 25px;
+}
+
+footer .ul {
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+.social-links {
+    text-align: right;
+}
+
+@media only screen and (max-width: 575px) {
+  .social-links {
+      text-align: center;
+  }
+  .footer-title {
+      text-align: center;
+  }
 }
