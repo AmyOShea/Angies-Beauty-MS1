@@ -145,7 +145,8 @@ footer a {
 .treatment-img {
     max-width: 200px;
     max-height: 200px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -153,8 +154,31 @@ footer a {
 .read-more-btn {
     background-color: transparent;
     color: #574546;
+    padding: 0;
 }
 
 .card {
     margin-bottom: 50px;
+}
+
+
+
+/* ------------------------------------------------------------------------Treatments Modal */
+
+
+
+.modal-content {
+    background-color: rgb(255, 240, 249);
+    color: #574546;
+}
+
+.modal-close-btn {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+
+.modal-footer, .modal-header {
+    background-color: rgb(255, 223, 242);
 }
