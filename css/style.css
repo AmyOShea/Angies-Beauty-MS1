@@ -124,7 +124,7 @@ footer a {
 /* ------------------------------------------------------------------------Treatments */
 
 
-.treatment-box {
+.treatment-container {
     margin-top: 150px;
     margin-bottom: 70px;
     margin-left: 20px;
@@ -146,5 +146,15 @@ footer a {
     max-width: 200px;
     max-height: 200px;
     padding: 10px;
+}
 
+
+
+.read-more-btn {
+    background-color: transparent;
+    color: #574546;
+}
+
+.card {
+    margin-bottom: 50px;
 }
