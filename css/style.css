@@ -120,3 +120,31 @@ footer a {
     font-weight: 700;
     font-size: 1.1em;
 }
+
+/* ------------------------------------------------------------------------Treatments */
+
+
+.treatment-box {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #574546;
+
+}
+
+.card {
+    border-style: none;
+    background-color: rgb(241, 238, 231);
+    margin: 0;
+    
+}
+
+
+
+.treatment-img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+
+}
