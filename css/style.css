@@ -8,8 +8,8 @@ body {
 /* ------------------------------------------------------------------------Nav Bar */
 
 
-.navbar { 
-    background-color: rgba(218, 139, 255, 0.9);
+.navbar{ 
+    background-color:rgba(255, 211, 237, 0.9);
     padding: 20px 20px 20px 20px;
 }
 
@@ -35,16 +35,29 @@ body {
     position: relative;
 }
 
+.welcome-container::before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
 .jumbotron {
     background-color: transparent;
-    color: #fff;
+    color: #574546;
 }
+    
+
 
 /* ------------------------------------------------------------------------Footer */
 
 footer {
-    background-color: rgb(218, 139, 255);
     color: #fff;
+    background-color: rgb(255, 211, 237);
     font-size: 25px;
     margin: 0px;
 }
@@ -85,8 +98,9 @@ footer a {
 }
 
 .price-list {
+    color: #574546;
     padding-top: 30px;
-    background-color: rgb(235, 222, 222);
+    background-color: rgb(241, 238, 231);
     margin-bottom: 0px;
     position: relative;
 }
