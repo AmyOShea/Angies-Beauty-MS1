@@ -182,3 +182,14 @@ footer a {
 .modal-footer, .modal-header {
     background-color: rgb(255, 223, 242);
 }
+
+/* ------------------------------------------------------------------------Contact Left */
+
+.contact-container{
+    margin-top: 100px;
+}
+
+.left-panel {
+    background-color: rgb(241, 238, 231);
+}
+
