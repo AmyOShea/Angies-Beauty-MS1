@@ -136,17 +136,20 @@ footer a {
 .card {
     border-style: none;
     background-color: rgb(241, 238, 231);
-    margin: 0;
+    margin: 0 0 20px 0;
     
 }
 
-
+.card-body {
+    padding: 15px 5px 15px 10px;
+}
 
 .treatment-img {
     max-width: 200px;
     max-height: 200px;
     padding-top: 10px;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -157,10 +160,10 @@ footer a {
     padding: 0;
 }
 
-.card {
-    margin-bottom: 50px;
-}
 
+.card-styling {
+    padding: 5px;
+}
 
 
 /* ------------------------------------------------------------------------Treatments Modal */
