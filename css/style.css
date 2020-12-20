@@ -194,5 +194,48 @@ footer a {
 
 .left-panel {
     background-color: rgb(241, 238, 231);
+    color: #574546;
 }
 
+.contact-info {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.treatment-check {
+    margin: 0;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------Contact right */
+.right-panel {
+    color: #574546;
+}
+
+.contact-us {
+    margin-top: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.treatment-check {
+    margin: 10px 0 20px 0;
+
+}
+
+.send-btn {
+    color: #574546;
+    background-color: rgb(241, 238, 231);
+    float: right;
+    margin-bottom: 20px;
+}
+
+.bottom-tag {
+    clear: both;
+}
