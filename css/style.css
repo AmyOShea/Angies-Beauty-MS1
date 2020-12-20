@@ -10,7 +10,6 @@ body {
 
 .navbar{ 
     background-color:rgba(255, 211, 237, 0.9);
-    padding: 20px 20px 20px 20px;
 }
 
 .logo-img {
@@ -29,6 +28,11 @@ body {
 .navbar-light .navbar-nav .active>.nav-link{
     color: #574546;
     font-weight: 600;
+}
+
+.title-font {
+    font-family: "Allura", cursive;
+    font-size: 1.8em;
 }
 
 /* ------------------------------------------------------------------------Welcome Section */
