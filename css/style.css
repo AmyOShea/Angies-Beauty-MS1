@@ -12,6 +12,10 @@ body {
     background-color:rgba(255, 211, 237, 0.9);
 }
 
+.navbar-brand {
+    margin: 0;
+}
+
 .logo-img {
     height: 50px;
     border-radius: 50%;
@@ -115,7 +119,7 @@ footer {
 }
 
 footer h5 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 footer .ul {
@@ -137,6 +141,11 @@ footer a {
   .footer-title {
       text-align: center;
   }
+}
+
+.footer-title-font {
+    font-family: "Allura", cursive;
+    font-size: 1.4em;
 }
 
 /* ------------------------------------------------------------------------Treatments */
