@@ -18,6 +18,19 @@ body {
     border-radius: 50%;
 }
 
+.navbar-light .navbar-brand {
+    color: #574546;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #574546;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #574546;
+    font-weight: 600;
+}
+
 /* ------------------------------------------------------------------------Welcome Section */
 
 
@@ -53,44 +66,6 @@ body {
     
 
 
-/* ------------------------------------------------------------------------Footer */
-
-footer {
-    color: #fff;
-    background-color: rgb(255, 211, 237);
-    font-size: 25px;
-    margin: 0px;
-}
-
-.footer-info {
-    padding: 15px 20px 0px 20px;
-}
-
-footer h5 {
-    font-size: 25px;
-}
-
-footer .ul {
-    list-style: none;
-}
-
-footer a {
-    color: #fff;
-}
-
-.social-links {
-    text-align: right;
-}
-
-@media only screen and (max-width: 575px) {
-  .social-links {
-      text-align: center;
-  }
-  .footer-title {
-      text-align: center;
-  }
-}
-
 /* ------------------------------------------------------------------------Price List */
 
 .table {
@@ -119,6 +94,45 @@ footer a {
 .treatment-headers {
     font-weight: 700;
     font-size: 1.1em;
+}
+
+
+/* ------------------------------------------------------------------------Footer */
+
+footer {
+    color: #574546;
+    background-color: rgb(255, 211, 237);
+    font-size: 25px;
+    margin: 0px;
+}
+
+.footer-info {
+    padding: 15px 20px 0px 20px;
+}
+
+footer h5 {
+    font-size: 25px;
+}
+
+footer .ul {
+    list-style: none;
+}
+
+footer a {
+    color: #574546;
+}
+
+.social-links {
+    text-align: right;
+}
+
+@media only screen and (max-width: 575px) {
+  .social-links {
+      text-align: center;
+  }
+  .footer-title {
+      text-align: center;
+  }
 }
 
 /* ------------------------------------------------------------------------Treatments */
@@ -199,7 +213,6 @@ footer a {
 
 .contact-info {
     margin-top: 30px;
-    margin-left: 30px;
 }
 
 .treatment-check {
