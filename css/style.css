@@ -193,13 +193,16 @@ footer a {
 }
 
 
-
 .read-more-btn {
     background-color: transparent;
     color: #574546;
-    padding: 0;
+    padding: 0 3px;
+    border: 1px solid rgb(221, 215, 201);
 }
 
+.read-more-btn:hover {
+    font-weight: 600;
+}
 
 .card-styling {
     padding: 5px;
@@ -231,9 +234,9 @@ footer a {
 }
 
 .modal-close-btn {
-    background-color: transparent;
+    background-color: rgb(255, 199, 233);
     margin: 0;
-    padding: 0;
+    padding: 2px 5px;
 }
 
 
