@@ -25,8 +25,17 @@ body {
     color: #574546;
 }
 
+.navbar-light .navbar-brand:hover {
+    color: #574546;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #574546;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #83585a;
+    text-decoration: underline;
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
@@ -128,6 +137,10 @@ footer .ul {
 
 footer a {
     color: #574546;
+}
+
+footer a:hover {
+    color: #83585a;
 }
 
 .social-links {
@@ -265,8 +278,6 @@ footer a {
 .treatment-check {
     margin: 0;
 }
-
-
 
 
 /* ------------------------------------------------------------------------Contact right */
