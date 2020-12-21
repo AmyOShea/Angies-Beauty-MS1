@@ -216,6 +216,11 @@ footer a {
     text-align: center;
 }
 
+.treatments-outro a {
+    color: #574546;
+    font-weight: 600;
+}
+
 /* ------------------------------------------------------------------------Treatments Modal */
 
 
@@ -290,6 +295,11 @@ footer a {
     margin-bottom: 20px;
 }
 
-.bottom-tag {
+.contact-outro {
     clear: both;
+}
+
+.contact-outro a {
+    color: #574546;
+    font-weight: 600;
 }
