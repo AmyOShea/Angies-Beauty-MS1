@@ -94,7 +94,7 @@ body {
     padding-top: 30px;
     background-color: rgb(241, 238, 231);
     margin-bottom: 0px;
-    position: relative;
+
 }
 
 .price-list h2 {
@@ -166,7 +166,6 @@ footer a:hover {
 
 .treatment-container {
     margin: 20px 20px 0 20px;
-
     color: #574546;
 
 }
@@ -193,24 +192,45 @@ footer a:hover {
     
 }
 
+.amy {
+    text-align: center;
+}
+
 .card-body {
     padding: 15px 5px 15px 10px;
 }
 
 .treatment-img {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
 
+@media only screen and (max-width: 575px) {
+    .treatment-img {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0 0 0;
+
+    }
+
+    .card-text {
+        max-width: 300px;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+}
+
 .read-more-btn {
     background-color: transparent;
     color: #574546;
     padding: 0 3px;
     border: 1px solid rgb(221, 215, 201);
+    max-width: 100px;
+    margin: auto;
 }
 
 .read-more-btn:hover {
