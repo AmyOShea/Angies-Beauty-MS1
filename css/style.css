@@ -80,13 +80,14 @@ body {
     background-color: transparent;
     color: #574546;
 }
-    
+
 
 
 /* ------------------------------------------------------------------------Price List */
 
 .table {
     margin: 0;
+
 }
 
 .price-list {
@@ -190,10 +191,6 @@ footer a:hover {
     background-color: rgb(241, 238, 231);
     margin: 0 0 20px 0;
     
-}
-
-.amy {
-    text-align: center;
 }
 
 .card-body {
@@ -357,4 +354,28 @@ footer a:hover {
 .contact-outro a {
     color: #574546;
     font-weight: 600;
+}
+
+
+.amy {
+    background-color: transparent;
+    
+}
+
+.covid-container {
+    margin-top: 50px;
+}
+
+.covid-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.covid-container li {
+    padding: 10px 0;
+}
+
+hr {
+    margin: 0;
 }
