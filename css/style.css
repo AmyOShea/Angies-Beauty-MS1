@@ -361,7 +361,6 @@ footer a:hover {
 
 .covid-container {
     color: #83585a;
-    border: 2px solid #dadada;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -369,28 +368,36 @@ footer a:hover {
 
 }
 
-.covid-container h4, .covid-container h5 {
-    font-weight: 600;
+.covid-container h3 {
     padding-bottom: 10px;
     padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
+
+.covid-container h5 {
+    margin-top: 30px;
+    border-bottom: 1px solid #83585a;;
+}
+
 
 .covid-container a {
     color: #83585a;
+    font-weight: 600;
 }
 
 .covid-container ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-bottom: 25px;
 }
 
 .covid-container li {
     padding: 10px 0;
 }
 
-hr {
-    margin: 0;
+.covid-container i {
+    color: rgb(255, 199, 237);
 }
 
 /* ------------------------------------------------------------------------About Us */
@@ -410,4 +417,9 @@ hr {
 
 .about-us p {
     line-height: 150%;
+}
+
+.about-us i {
+    color: rgb(255, 199, 237);
+    text-shadow: 1px 1px 5px rgb(170, 170, 170);
 }
