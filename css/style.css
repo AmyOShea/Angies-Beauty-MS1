@@ -357,13 +357,25 @@ footer a:hover {
 }
 
 
-.amy {
-    background-color: transparent;
-    
-}
 
 .covid-container {
+    color: #83585a;
+    border: 2px solid #dadada;
+    padding: 20px;
+    margin-bottom: 20px;
     margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.covid-container h4, .covid-container h5 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.covid-container a {
+    color: #83585a;
 }
 
 .covid-container ul {
