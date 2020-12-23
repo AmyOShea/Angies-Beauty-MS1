@@ -81,12 +81,35 @@ body {
     color: #574546;
 }
 
+/* ------------------------------------------------------------------------About Us */
 
+.about-us {
+    color: #574546;
+    padding-bottom: 50px;
+    padding-top: 70px;
+
+}
+
+.about-us h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #574546;
+}
+
+.about-us p {
+    line-height: 150%;
+}
+
+.about-us i {
+    color: rgb(255, 199, 237);
+    text-shadow: 1px 1px 5px rgb(170, 170, 170);
+}
 
 /* ------------------------------------------------------------------------Price List */
 
 .table {
-    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .price-list {
@@ -101,15 +124,13 @@ body {
     -o-background-size: cover;
     position: relative;
     background-size: cover;
-    margin-bottom: 0px;
-
 
 }
 
 
 .price-list::before {
     content: "";
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -119,7 +140,7 @@ body {
 
 .price-list h2 {
     font-weight: 700;
-    padding-bottom: 10px;
+    padding-top: 30px;
     margin: 0;
 }
 
@@ -133,6 +154,71 @@ body {
     font-size: 1.1em;
 }
 
+.price-list h5 a {
+    color: #574546;
+    font-weight: 600;
+}
+
+.book-btn {
+    color: #574546;
+    background-color: rgba(182, 178, 170, 0.2);
+    padding: 5px 10px;
+    margin: 0;
+}   
+
+.book-btn:hover{
+    color: #574546;
+    font-weight: 600;
+    background-color: rgba(182, 178, 170, 0.4);
+} 
+
+.price-outro {
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------------------------------------------COVID */
+
+
+.covid-container {
+    color: #574546;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.covid-container h3 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.covid-container h5 {
+    margin-top: 30px;
+    border-bottom: 1px solid #574546;
+}
+
+
+.covid-container a {
+    color: #574546;
+    font-weight: 600;
+}
+
+.covid-container ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.covid-container li {
+    padding: 10px 0;
+}
+
+.covid-container i {
+    color: rgb(255, 199, 237);
+}
 
 /* ------------------------------------------------------------------------Footer */
 
@@ -379,7 +465,7 @@ footer a:hover {
 
 
 .covid-container {
-    color: #83585a;
+    color: #574546;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -396,12 +482,12 @@ footer a:hover {
 
 .covid-container h5 {
     margin-top: 30px;
-    border-bottom: 1px solid #83585a;;
+    border-bottom: 1px solid #574546;
 }
 
 
 .covid-container a {
-    color: #83585a;
+    color: #574546;
     font-weight: 600;
 }
 
@@ -422,7 +508,7 @@ footer a:hover {
 /* ------------------------------------------------------------------------About Us */
 
 .about-us {
-    color: #83585a;
+    color: #574546;
     padding-bottom: 50px;
     padding-top: 70px;
 
@@ -431,7 +517,7 @@ footer a:hover {
 .about-us h3 {
     font-weight: 600;
     padding-bottom: 20px;
-    border-bottom: 1px solid #83585a;
+    border-bottom: 1px solid #574546;
 }
 
 .about-us p {
