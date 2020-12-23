@@ -87,15 +87,34 @@ body {
 
 .table {
     margin: 0;
-
 }
 
 .price-list {
     color: #574546;
     padding-top: 30px;
-    background-color: rgb(241, 238, 231);
+    background-image: url(../assets/images/price-list-bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    background-size: cover;
     margin-bottom: 0px;
 
+
+}
+
+
+.price-list::before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 .price-list h2 {
