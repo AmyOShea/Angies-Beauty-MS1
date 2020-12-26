@@ -1,11 +1,6 @@
 # Angie's Beauty website
 Angie's Beauty is a business that specialises in beauty treatments for both face and body. This a real business that has an onine presense through social media but doesn't currently have a website. 
 
-<<<<<<< HEAD
-=======
-Angie's Beauty is a business that specialises in beauty treatments for both face and body. A newly created business. 
-
->>>>>>> 2378f3321a2ebc674269a0870e727eca2cd0fcbe
 You can find the live site [here](https://amyoshea.github.io/Angies-Beauty-MS1/).
 ![Mock up of site on various screens](https://i.imgur.com/2hXJbJE.png)
 # User Experience (UX)
@@ -58,7 +53,6 @@ As the project progressed, there were changes to the homepage.
 * [Font Awesome](https://fontawesome.com/) used for icons. 
 * [Google Fonts](https://fonts.google.com/) used to import 'Gudea'& 'Allura' fonts.
 * [jQuery](https://jquery.com/) used in conjunction with Bootstrap for responsive nav bar. 
-<<<<<<< HEAD
 * [Google Maps](https://www.google.ie/maps/) used to import business location to the page.
 * [GitHub](https://github.com/) used to host repository.
 * [GitPod](https://www.gitpod.io/) used to develop project and orgainse version control.
@@ -68,17 +62,6 @@ As the project progressed, there were changes to the homepage.
 # Testing
 ## Validating
 At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
-=======
-* [Google Maps]()
-* [GitHub](https://github.com/) used to host repository.
-* [GitPod](https://www.gitpod.io/) used to develop project and orgainse version control.
-* [GitHub Pages](https://pages.github.com/)used to deploy the site.  
-* [Balsamiq](https://balsamiq.com/) used to create wireframes. 
-
-# Testing
-## Validating
-At the completion or heavy editing or sections, I used the following websites to check my code for syntax errors:
->>>>>>> 2378f3321a2ebc674269a0870e727eca2cd0fcbe
 *  HTML - https://validator.w3.org/
 *  CSS - https://jigsaw.w3.org/css-validator/
 ## Testing User Stories from (UX) Section
@@ -99,11 +82,7 @@ At the completion or heavy editing or sections, I used the following websites to
 ### Personal Testing
 Through devices that I have at home/readily available to me, I was able to continuously test on:
 * Phone
-<<<<<<< HEAD
   * Samsung Galaxy S9 - Google Chrome, Samsung Internet
-=======
-  * Samsung - 
->>>>>>> 2378f3321a2ebc674269a0870e727eca2cd0fcbe
   * Huawei Y7 - Google Chrome
   * iPhone 6 - Safari
 * Tablet
@@ -112,11 +91,7 @@ Through devices that I have at home/readily available to me, I was able to conti
   * iPad 11" Pro - Safari
 * Computer
   * Avita Pura 14" Laptop - Google Chrome, Microsoft Edge, Opera, Mozilla Firefox
-<<<<<<< HEAD
   * Lenovo 15" IdeaPad - Microsoft Edge, Google Chrome
-=======
-
->>>>>>> 2378f3321a2ebc674269a0870e727eca2cd0fcbe
 ### Third-Party Testing
 One of the most helpful ways for me to test through out his projects was to have a few different people test the site on various devices. I choose a slect group based on their various ages/backgrounds to be able to recieve well-rounded feedback.
   * While I would generally like to include male perpective ito a test group, the business is currently targeted predominantly towards women. 
@@ -128,7 +103,6 @@ One of the most helpful ways for me to test through out his projects was to have
 | Frances| 64 | None| Low |
 | Kathleen| 69 | Low | None |
 
-<<<<<<< HEAD
 ## Bugs & Fixes
 * Modal for some treatemtns weren't opening.
   * Id's were not perfectly matched, used copy and paste rathen than typing each individually for each one.
@@ -156,12 +130,6 @@ This site was deployed through GitHub Pages using the following steps:
 7. Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
   * _$ git clone https://github.com/AmyOShea/Angies-Beauty-MS1.git_
 8. Press Enter to create your local clone.
-=======
-# Deployment
-
-## GitHub Pages
-
->>>>>>> 2378f3321a2ebc674269a0870e727eca2cd0fcbe
 # Credits
 
 ## Code
