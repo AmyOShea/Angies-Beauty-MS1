@@ -415,6 +415,10 @@ footer a:hover {
     padding-top: 30px;
 }
 
+.contact-info a {
+    color: #574546;
+}
+
 .treatment-check {
     margin: 0;
 }

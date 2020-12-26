@@ -60,6 +60,8 @@ As the project progressed, there were changes to the homepage.
 * [Animate.css](https://animate.style/) used for intro animations on navbar.
 * [Balsamiq](https://balsamiq.com/) used to create wireframes. 
 * [imgur](https://imgur.com/) used for hosting images that I didn't want hosted in the repository.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)  for performance review. 
+* [PowerMapper](https://www.powermapper.com/) used to check compatibility with older browsers.
 # Testing
 ## Validating
 At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
@@ -105,10 +107,19 @@ One of the most helpful ways for me to test through out his projects was to have
 | Kathleen| 69 | Low | None |
 
 ## Bugs & Fixes
-* Modal for some treatemtns weren't opening.
+* Modal for some treatments weren't opening.
   * Id's were not perfectly matched, used copy and paste rathen than typing each individually for each one.
 * Hovering on 'Book' button on table was changing the poition of the cellto the left.
   * Added margin to the button to give it room to 'grow' when hovered on. 
+
+## PowerMapper
+While I'm not 100% sure that this was the right resource to use in this situation, I wanted to find a way to check how compatible the site was across different/older browsers than I had access to. 
+
+![Imgur](https://i.imgur.com/ayTfwm9.png)
+  * Internet Explorer ≤ 11 - 'flex' CSS property does not work correctly in some browsers.
+  * Safari ≤ 5.1 - 'box-shadow' CSS property is not supported by older browsers. 
+
+Overall I am happy with this outcome - while I would love for the page to 100% compatible, the benefits of using these elemants outweight the issues with having them included. 
 
 # Deployment
 
@@ -150,6 +161,7 @@ This site was deployed through GitHub Pages using the following steps:
 * All other photos provided by Angelika (business owner).
 
 ## Acknowledgements
+* Thanks to Lisa for being the go-between for myself and Angelika for the first while. 
 * A massive thank you to my family and friends that tesed throughout, I apologize for all of the harrassment and appreciate all of your efforts. 
 * A shout out to my mam for learning to make an epic cup of coffee and delivering them to my desk!
 * A thank you to my mentor Antonio Rodriguez for the helpful direction in starting this project and all of the helpful resources you provided that helped throughout. 
