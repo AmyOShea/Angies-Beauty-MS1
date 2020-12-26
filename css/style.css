@@ -10,6 +10,7 @@ body {
 
 .navbar{ 
     background-color:rgba(255, 211, 237, 0.9);
+    box-shadow: 2px 2px 12px rgba(170, 170, 170, 0.5);
 }
 
 .navbar-brand {
@@ -302,6 +303,8 @@ footer a:hover {
     border-style: none;
     background-color: rgb(241, 238, 231);
     margin: 0 0 20px 0;
+        box-shadow: 1px 1px 5px rgba(170, 170, 170, 0.5);
+
     
 }
 
@@ -324,7 +327,6 @@ footer a:hover {
         margin-left: auto;
         margin-right: auto;
         padding: 20px 0 0 0;
-
     }
 
     .card-text {
