@@ -164,7 +164,7 @@ body {
     color: #574546;
     background-color: rgba(182, 178, 170, 0.2);
     padding: 5px 10px;
-    margin: 0;
+    margin: 3px;
 }   
 
 .book-btn:hover{
@@ -468,6 +468,11 @@ footer a:hover {
     float: right;
     margin-bottom: 40px;
 }
+
+.send-btn:hover{
+    color: #574546;
+    font-weight: 600;
+} 
 
 .contact-outro {
     clear: both;

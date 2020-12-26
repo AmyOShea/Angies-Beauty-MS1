@@ -57,6 +57,7 @@ As the project progressed, there were changes to the homepage.
 * [GitHub](https://github.com/) used to host repository.
 * [GitPod](https://www.gitpod.io/) used to develop project and orgainse version control.
 * [GitHub Pages](https://pages.github.com/) used to deploy the site.  
+* [Animate.css](https://animate.style/) used for intro animations on navbar.
 * [Balsamiq](https://balsamiq.com/) used to create wireframes. 
 * [imgur](https://imgur.com/) used for hosting images that I didn't want hosted in the repository.
 # Testing
@@ -106,6 +107,8 @@ One of the most helpful ways for me to test through out his projects was to have
 ## Bugs & Fixes
 * Modal for some treatemtns weren't opening.
   * Id's were not perfectly matched, used copy and paste rathen than typing each individually for each one.
+* Hovering on 'Book' button on table was changing the poition of the cellto the left.
+  * Added margin to the button to give it room to 'grow' when hovered on. 
 
 # Deployment
 
