@@ -4,9 +4,7 @@ body {
     padding: 0px;
 }
 
-
 /* ------------------------------------------------------------------------Nav Bar */
-
 
 .navbar{ 
     background-color:rgba(255, 211, 237, 0.9);
@@ -51,7 +49,6 @@ body {
 
 /* ------------------------------------------------------------------------Welcome Section */
 
-
 .welcome-container {
     height: 100vh;
     position: relative;
@@ -74,7 +71,6 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    
 }
 
 .jumbotron {
@@ -88,7 +84,6 @@ body {
     color: #574546;
     padding-bottom: 50px;
     padding-top: 70px;
-
 }
 
 .about-us h3 {
@@ -125,9 +120,7 @@ body {
     -o-background-size: cover;
     position: relative;
     background-size: cover;
-
 }
-
 
 .price-list::before {
     content: "";
@@ -186,7 +179,6 @@ body {
     margin-bottom: 20px;
     margin-top: 50px;
     border-radius: 5px;
-
 }
 
 .covid-container h3 {
@@ -282,16 +274,12 @@ footer a:hover {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-
 }
-
-
 
 .treatments-intro h3 {
     font-weight: 600;
     border-bottom: 1px solid #574546;
     padding-bottom: 15px;
-
 }
 
 .treatments-intro i {
@@ -303,13 +291,15 @@ footer a:hover {
     border-style: none;
     background-color: rgb(241, 238, 231);
     margin: 0 0 20px 0;
-        box-shadow: 1px 1px 5px rgba(170, 170, 170, 0.5);
-
-    
+    box-shadow: 1px 1px 5px rgba(170, 170, 170, 0.5); 
 }
 
 .card-body {
     padding: 15px 5px 15px 10px;
+}
+
+.card-body p {
+    margin-bottom: 5px;
 }
 
 .treatment-img {
@@ -319,8 +309,6 @@ footer a:hover {
     padding-left: 10px;
     padding-bottom: 10px;
 }
-
-
 
 @media only screen and (max-width: 575px) {
     .treatment-img {
@@ -336,11 +324,16 @@ footer a:hover {
     }
 }
 
+.price {
+    font-size: 0.8em;
+}
+
 .read-more-btn {
     background-color: transparent;
     color: #574546;
     padding: 0 3px;
-    margin: auto;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px rgba(170, 170, 170, 0.7);
 }
 
 .read-more-btn:hover {
@@ -368,8 +361,6 @@ footer a:hover {
 
 /* ------------------------------------------------------------------------Treatments Modal */
 
-
-
 .modal-content {
     background-color: rgb(255, 240, 249);
     color: #574546;
@@ -380,13 +371,13 @@ footer a:hover {
     background-color: transparent;
     margin: 0;
     padding: 2px 5px;
+    box-shadow: 2px 2px 8px rgba(170, 170, 170, 0.7);
 }
 
 .modal-close-btn:hover {
     color: #574546;
     font-weight: 600;
 }
-
 
 .modal-footer, .modal-header {
     background-color: rgb(255, 223, 242);
@@ -399,7 +390,6 @@ footer a:hover {
 }
 
 /* ------------------------------------------------------------------------Contact Left */
-
 
 .left-panel {
     background-color: rgb(241, 238, 231);
@@ -423,17 +413,12 @@ footer a:hover {
     margin: 0;
 }
 
-
 .map {
     margin-bottom: 40px;
     margin-top: 20px;
     border: 2px solid #83585a;
     border-radius: 5px;
 }
-
-
-
-
 
 /* ------------------------------------------------------------------------Contact right */
 .right-panel {
@@ -447,7 +432,6 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
-
 }
 
 .contact-us h3 {
@@ -462,6 +446,7 @@ footer a:hover {
 .form-title {
     padding: 20px 0 5px 0;
 }
+
 .treatment-check {
     padding-bottom: 40px;
 }
@@ -486,4 +471,3 @@ footer a:hover {
     color: #574546;
     font-weight: 600;
 }
-
